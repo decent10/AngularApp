@@ -8,6 +8,12 @@
   border-bottom: solid 1px #FFF;
   padding-bottom: 15px;
 }
+.sec-intro a {
+  text-decoration: underline;
+}
+.sec-intro a:hover {
+  color: #fff;
+}
 .text-white {
   color: #fff;
 }
