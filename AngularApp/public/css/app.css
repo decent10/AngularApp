@@ -1,0 +1,43 @@
+﻿.sec-intro {
+  background: #DB110F;
+  padding: 40px 40px 80px 40px;
+}
+.sec-intro .title {
+  color: #fff;
+  margin-top: 0;
+  border-bottom: solid 1px #FFF;
+  padding-bottom: 15px;
+}
+.text-white {
+  color: #fff;
+}
+.sec-list {
+  background-image: -webkit-linear-gradient(top, #e9e9e9 0%, #ffffff 100%);
+  background-image: linear-gradient(to bottom, #e9e9e9 0%, #ffffff 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffe9e9e9', endColorstr='#ffffffff', GradientType=0);
+}
+.sec-list .item {
+  padding: 8px;
+  background: #fff;
+  -webkit-box-shadow: 1px 1px 10px #E7DBDB, 1px 1px 1px 1px #0F0E0E;
+  box-shadow: 1px 1px 10px #E7DBDB, 1px 1px 1px 1px #0F0E0E;
+  margin-left: 10px;
+  position: relative;
+  top: -40px;
+  min-height: 150px;
+}
+.caption {
+  background-image: -webkit-linear-gradient(top, #db110f 0%, #690202 100%);
+  background-image: linear-gradient(to bottom, #db110f 0%, #690202 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffdb110f', endColorstr='#ff690202', GradientType=0);
+  padding: 10px 5px ;
+}
+.display-inline {
+  display: inline;
+}
+.btn-odesk {
+  margin-top: 10px;
+}
+/*# sourceMappingURL=app.css.map */

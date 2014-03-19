@@ -1,0 +1,49 @@
+﻿@import "../../content/bootstrap/variables.less";
+@import "../../content/bootstrap/mixins.less";
+
+.sec-intro {
+    background: #DB110F;
+    padding: 40px 40px 80px 40px;
+
+    .title {
+        color: #fff;
+        margin-top: 0;
+        border-bottom: solid 1px #FFF;
+        padding-bottom: 15px;
+    }
+}
+
+.text-white {
+    color: #fff;
+}
+
+.sec-list {
+    #gradient > .vertical(@start-color: #E9E9E9;
+    @end-color: #fff
+    );
+    .item{
+        padding:8px;
+        background:#fff;
+        .box-shadow(~"1px 1px 10px #E7DBDB, 1px 1px 1px 1px #0F0E0E");
+       //
+       //-1px 1px 4px #202020, 1px 0 0 0px #DDD7D7
+        margin-left:10px;
+        position:relative;
+        top:-40px;
+        min-height: 150px;
+    }
+}
+.caption{
+     #gradient > .vertical(@start-color: #DB110F;
+    @end-color: #690202;
+    
+    );
+    padding:10px 5px ;
+  ;
+}
+.display-inline{
+    display:inline;
+}
+.btn-odesk{
+    margin-top:10px
+}
